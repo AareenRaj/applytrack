@@ -1,0 +1,24 @@
+{
+  "name": "applytrack",
+  "version": "1.0.0",
+  "description": "MERN job application tracker backend",
+  "type": "module",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "node --watch server/server.js",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "mern",
+    "jobs",
+    "applications"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}
